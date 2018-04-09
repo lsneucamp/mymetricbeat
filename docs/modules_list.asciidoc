@@ -1,0 +1,26 @@
+////
+This file is generated! See scripts/docs_collector.py
+////
+
+[options="header"]
+|===================================
+|Modules   |Dashboards   |Metricsets   
+|<<metricbeat-module-system,System>>     |image:./images/icon-yes.png[Prebuilt dashboards are available]    |  
+.13+|   |   |<<metricbeat-metricset-system-core,core>>   
+|   |<<metricbeat-metricset-system-cpu,cpu>>   
+|   |<<metricbeat-metricset-system-diskio,diskio>>   
+|   |<<metricbeat-metricset-system-filesystem,filesystem>>   
+|   |<<metricbeat-metricset-system-fsstat,fsstat>>   
+|   |<<metricbeat-metricset-system-load,load>>   
+|   |<<metricbeat-metricset-system-memory,memory>>   
+|   |<<metricbeat-metricset-system-network,network>>   
+|   |<<metricbeat-metricset-system-process,process>>   
+|   |<<metricbeat-metricset-system-process_summary,process_summary>>   
+|   |<<metricbeat-metricset-system-raid,raid>> beta[]  
+|   |<<metricbeat-metricset-system-socket,socket>> beta[]  
+|   |<<metricbeat-metricset-system-uptime,uptime>>   
+|================================
+
+--
+
+include::modules/system.asciidoc[]

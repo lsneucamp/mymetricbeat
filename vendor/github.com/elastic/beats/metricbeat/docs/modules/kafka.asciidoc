@@ -1,0 +1,40 @@
+////
+This file is generated! See scripts/docs_collector.py
+////
+
+[[metricbeat-module-kafka]]
+== Kafka module
+
+beta[]
+
+This is the Kafka module.
+
+The default metricsets are `consumergroup` and `partition`.
+
+
+[float]
+=== Example configuration
+
+The Kafka module supports the standard configuration options that are described
+in <<configuration-metricbeat>>. Here is an example configuration:
+
+[source,yaml]
+----
+metricbeat.modules:
+- module: kafka
+  hosts: ["localhost:9092"]
+----
+
+[float]
+=== Metricsets
+
+The following metricsets are available:
+
+* <<metricbeat-metricset-kafka-consumergroup,consumergroup>>
+
+* <<metricbeat-metricset-kafka-partition,partition>>
+
+include::kafka/consumergroup.asciidoc[]
+
+include::kafka/partition.asciidoc[]
+
